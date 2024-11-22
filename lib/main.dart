@@ -33,8 +33,7 @@ class MyApp extends StatelessWidget {
 class DashboardScreen extends StatefulWidget {
   final int selectedIndex;
 
-  const DashboardScreen({Key? key, required this.selectedIndex})
-      : super(key: key);
+  const DashboardScreen({super.key, required this.selectedIndex});
 
   @override
   _DashboardScreenState createState() => _DashboardScreenState();
@@ -49,7 +48,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
     const NotificationScreen(),
     ProfileScreen(),
     SimpleWebView(
-        link: 'https://www.sbbusba.edu.pk/', pageName: 'Official Page'),
+        link: 'https://app.sbbusba.edu.pk/sams/index.php', pageName: 'Official Page'),
     SimpleWebView(
         link: 'https://www.sbbusba.edu.pk/sbbu-main/helpdesk.html',
         pageName: 'Official HelpDesk Page'),
@@ -186,11 +185,11 @@ class SimpleWebView extends StatelessWidget {
   final String link;
   final String pageName;
 
-  const SimpleWebView({
-    Key? key,
+  SimpleWebView({
+    super.key,
     required this.link,
     required this.pageName,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
