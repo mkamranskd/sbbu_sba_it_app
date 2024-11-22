@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "432676141591",
+    "project_id": "sbbusbaitapp",
+    "storage_bucket": "sbbusbaitapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432676141591:android:4fb5c5f9acbfdb7441ba52",
+        "android_client_info": {
+          "package_name": "com.example.sbbu_sba_it_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDemY2iV-c2Qz39R8kgssi5BpNdWJhMQGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
