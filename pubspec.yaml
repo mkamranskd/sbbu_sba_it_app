@@ -56,6 +56,7 @@ dependencies:
   zoom_tap_animation: ^1.1.0
   webview_flutter: ^4.0.1
   icons_plus: ^5.0.0
+  pinch_zoom: ^2.0.0
 
 
 
@@ -94,6 +95,7 @@ flutter:
     - assets/iconimages/.
     - assets/files/.
     - assets/images/.
+    - assets/timetableimages/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
